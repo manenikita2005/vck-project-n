@@ -1,8 +1,7 @@
 //  src/pages/HomePage.jsx
 import { Link } from "react-router-dom"; // Import Link for internal navigation
 import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
-// Add more image imports if needed
+import Header from "../components/Header/Header";// Add more image imports if needed
 const HomePage = () => {
   return (
     <div>
@@ -81,5 +80,5 @@ const HomePage = () => {
     <Footer/>
     </div>
   );
-};
+}
 export default HomePage;
