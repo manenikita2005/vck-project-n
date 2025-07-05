@@ -5,11 +5,11 @@ import './styles/pages.css';
 import { useState } from "react";
 import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
 import ChatbotComponent from './components/Chatbot/ChatbotComponent';
-import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import CoursesPage from './pages/CoursesPage';
 import ContactPage from './pages/ContactPage';
 import AdmissionPage from './pages/AdmissionPage';
+import HomePage from './pages/HomePage';
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
 
